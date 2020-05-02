@@ -1,0 +1,20 @@
+# ignore all .js files
+*.js
+
+# but do track main.js, even though you're ignoring .js files above
+!main.js
+
+# only ignore the TODO file in the current directory, not subdir/TODO
+/TODO
+
+# ignore all files in any directory named build
+build/
+
+# ignore doc/*.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# but do track all doc/*.txt files that ends with numbers
+!doc/*[0-9]*.txt
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+doc/**/*.pdf
